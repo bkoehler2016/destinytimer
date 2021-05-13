@@ -4,3 +4,9 @@
     font-size: 1.2em;
 
 }
+
+.col-sm-4{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+}

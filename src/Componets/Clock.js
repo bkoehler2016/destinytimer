@@ -7,6 +7,7 @@ function DestinyTime() {
   return (
     <>
       <h1>Daily Reset Time</h1>
+      <h2>Weekley resets are every Tuesday</h2>
       <ul>
         <li>Destiny Time 10:00</li>
         <li>East Coast 13:00</li>
@@ -14,7 +15,7 @@ function DestinyTime() {
         <li>UK 18:00</li>
       </ul>
       <Row>
-        <Col sm="6">
+        <Col sm="4">
           <Card body>
             <CardTitle tag="h5"> Destiny Time</CardTitle>
 
@@ -29,7 +30,7 @@ function DestinyTime() {
             </CardText>
           </Card>
         </Col>
-        <Col sm="6">
+        <Col sm="4">
           <Card body>
             <CardTitle tag="h5">East Coast US:</CardTitle>
             <CardText>
@@ -44,7 +45,7 @@ function DestinyTime() {
           </Card>
         </Col>
 
-        <Col sm="6">
+        <Col sm="4">
           <Card body>
             <CardTitle tag="h5">UK:</CardTitle>
             <CardText>
@@ -59,7 +60,7 @@ function DestinyTime() {
           </Card>
         </Col>
 
-        <Col sm="6">
+        <Col sm="4">
           <Card body>
             <CardTitle tag="h5">Europe</CardTitle>
             <CardText>
