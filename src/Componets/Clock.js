@@ -32,7 +32,7 @@ function DestinyTime() {
         </Col>
         <Col sm="4">
           <Card body>
-            <CardTitle tag="h5">East Coast US:</CardTitle>
+            <CardTitle tag="h5">East Coast US</CardTitle>
             <CardText>
               <Clock
                 className={CSS.ukFormat}
@@ -47,7 +47,7 @@ function DestinyTime() {
 
         <Col sm="4">
           <Card body>
-            <CardTitle tag="h5">UK:</CardTitle>
+            <CardTitle tag="h5">UK</CardTitle>
             <CardText>
               <Clock
                 className={CSS.ukFormat}
