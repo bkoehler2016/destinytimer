@@ -9,10 +9,10 @@ function DestinyTime() {
       <h1>Daily Reset Time</h1>
       <h2>Weekley resets are every Tuesday</h2>
       <ul>
-        <li>Destiny Time 10:00</li>
-        <li>East Coast 13:00</li>
-        <li>Europe 19:00</li>
-        <li>UK 18:00</li>
+        <li>Destiny Time 10:00 AM</li>
+        <li>East Coast 1:00 PM</li>
+        <li>Europe 7:00 PM</li>
+        <li>UK 6:00 PM</li>
       </ul>
       <Row>
         <Col sm="4">
@@ -22,7 +22,7 @@ function DestinyTime() {
             <CardText>
               <Clock
                 className={CSS.ukFormat}
-                format={"HH:mm:ss"}
+                format={"hh:mm:ss A"}
                 style={{ fontSize: "1.5em" }}
                 ticking={true}
                 timezone={"US/Pacfic"}
@@ -36,7 +36,7 @@ function DestinyTime() {
             <CardText>
               <Clock
                 className={CSS.ukFormat}
-                format={"HH:mm:ss"}
+                format={"hh:mm:ss A"}
                 style={{ fontSize: "1.5em" }}
                 ticking={true}
                 timezone={"US/Eastern"}
@@ -51,7 +51,7 @@ function DestinyTime() {
             <CardText>
               <Clock
                 className={CSS.ukFormat}
-                format={"HH:mm:ss"}
+                format={"hh:mm:ss A"}
                 style={{ fontSize: "1.5em" }}
                 ticking={true}
                 timezone={"Europe/Jersey"}
@@ -66,7 +66,7 @@ function DestinyTime() {
             <CardText>
               <Clock
                 className={CSS.ukFormat}
-                format={"HH:mm:ss"}
+                format={"hh:mm:ss A"}
                 style={{ fontSize: "1.5em" }}
                 ticking={true}
                 timezone={"Europe/Paris"}
