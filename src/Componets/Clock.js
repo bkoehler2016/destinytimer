@@ -47,6 +47,36 @@ function DestinyTime() {
 
         <Col sm="4">
           <Card body>
+            <CardTitle tag="h5">Central Time US</CardTitle>
+            <CardText>
+              <Clock
+                className={CSS.ukFormat}
+                format={"hh:mm:ss A"}
+                style={{ fontSize: "1.5em" }}
+                ticking={true}
+                timezone={"US/Central"}
+              />
+            </CardText>
+          </Card>
+        </Col>
+
+        <Col sm="4">
+          <Card body>
+            <CardTitle tag="h5">Mountain Time US</CardTitle>
+            <CardText>
+              <Clock
+                className={CSS.ukFormat}
+                format={"hh:mm:ss A"}
+                style={{ fontSize: "1.5em" }}
+                ticking={true}
+                timezone={"US/Mountain"}
+              />
+            </CardText>
+          </Card>
+        </Col>
+
+        <Col sm="4">
+          <Card body>
             <CardTitle tag="h5">UK</CardTitle>
             <CardText>
               <Clock
