@@ -9,15 +9,15 @@ function DestinyTime() {
       <h1>Daily Reset Time</h1>
       <h2>Weekley resets are every Tuesday</h2>
       <ul>
-        <li>Destiny Time 10:00 AM</li>
-        <li>East Coast 1:00 PM</li>
-        <li>UK 6:00 PM</li>
-        <li>Europe 7:00 PM</li>
+        <li className="col-sm-4">Pacific (Destiny Time 10:00 AM)</li>
+        <li className="col-sm-4">East Coast 1:00 PM</li>
+        <li className="col-sm-4">UK 6:00 PM</li>
+        <li className="col-sm-4">Europe 7:00 PM</li>
       </ul>
       <Row>
         <Col sm="4">
           <Card body>
-            <CardTitle tag="h5"> Destiny Time</CardTitle>
+            <CardTitle tag="h5"> Pacific/Destiny Time</CardTitle>
 
             <CardText>
               <Clock

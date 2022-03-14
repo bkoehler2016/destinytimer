@@ -1,30 +1,29 @@
-
- 
- li{
-    font-style: bold;
-    list-style-type: none;
-    font-size: 1.2em;
-
+li {
+  background-color: #6bc7b2;
+  /* margin: 10px 400px 10px 400px; */
+  text-align: center;
+  font-weight: bold;
+  list-style-type: none;
+  font-size: 1.2em;
 }
 
-.col-sm-4{
-    margin-left: auto;
-    margin-right: auto;
-    padding: 5px;
+.col-sm-4 {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
 }
-
 
 .card {
-    display: flex;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 15px;
-    width: 440px;
-    background-color: #7D96DF;
-    color: darkblue;
-  }
-  
-  .card-title {
-    font-weight: bold;
-  }
+  display: flex;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+  width: 440px;
+  background-color: #6bc7b2;
+  color: #3c3cd6;
+}
+
+.card-title {
+  font-weight: bold;
+}
